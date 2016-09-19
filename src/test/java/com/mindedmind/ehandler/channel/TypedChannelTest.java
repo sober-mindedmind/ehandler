@@ -11,13 +11,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
-import org.objenesis.instantiator.basic.NewInstanceInstantiator;
 
-import com.mindedmind.ehandler.channel.TypedChannel;
 import com.mindedmind.ehandler.handler.Handler;
 import com.mindedmind.ehandler.queue.AsyncPriorityEventQueue;
 import com.mindedmind.ehandler.queue.JoinQueue;
-import com.mindedmind.ehandler.queue.Priority;
 
 public class TypedChannelTest
 {
